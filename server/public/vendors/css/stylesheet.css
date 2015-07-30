@@ -1,13 +1,13 @@
 .my-info h1{
     text-align: center;
-    border-bottom: 1px solid #999;
-    color: #999;
+    border-bottom: 1px solid #000000;
+    color: #000000;
 
 }
 .my-info {
     text-align: center;
     display: block;
-    color: #999
+    color: #000000
 }
 .summary{
     font-style: italic;
@@ -15,15 +15,15 @@
     line-height: normal;
     display: block;
     padding-top: 10px;
-    color: #999
+    color: #000000
 
 }
 .professional-experience{
-    color: #999;
+    color: #000000;
 
 }
 .bestbuy{
-    color: #999;
+    color: #000000;
 }
 .bestbuy h3{
     border-bottom: 1px solid #999;
@@ -35,14 +35,17 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     display: block;
-    background-image: url(http://i148.photobucket.com/albums/s26/blueisdead/DistBackground.jpg);
-    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
     background-size: cover;
     font-family: helvetica, sans-serif;
 
 }
 .container{
     display: none;
+    background-color: #FFFFFF;
+    box-shadow: 10px 5px 5px #000000;
+    width: 75%;
+    height: 75%;
 }
 #resumeButton{
     font-size: 5em;
